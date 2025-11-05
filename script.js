@@ -4,7 +4,7 @@ let state = {
     active: 0,
     finished: false
   };
-  
+
   document.addEventListener('DOMContentLoaded', () => {
   const targetInput = document.getElementById('target');
   const highscoreList = document.getElementById('highscore-list');
@@ -22,3 +22,18 @@ let state = {
 
   init();
 });
+
+ function kasta(playerIdx) {
+    if (state.finished || state.active !== playerIdx) return;
+
+    const kast = Math.floor(Math.random() * 6) + 1;
+
+    if (kast === 1) {
+      state.rounds[playerIdx] = 0;
+      växlaSpelare();
+    } else {
+      state.rounds[playerIdx] += kast;
+    }
+
+    render();
+  }
