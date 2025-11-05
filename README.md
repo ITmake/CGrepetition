@@ -74,3 +74,8 @@ Vad Koden gör i varje fil
 - JSON: Bygger up highscore system som sparar datan av highscorena och skickar datan och infon till servern alltid när man spelar
 
 - Backend: Bygger en backend för servern så man slipper in och ändra på saker
+
+- Jag öppnade webbsidan och skrev mig in i webbsidan med (192.168.21.32/~make/Chickengame).
+- Jag testade spela spelet och spelet funkade med allt men det fanns ett par - saker i koden.
+  som t.ex att när man ska byta tur så måst man klicka "stanna" och sen "kasta" för att den ska byta tur och samma tillbaka.
+  
