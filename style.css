@@ -18,3 +18,8 @@ h1{text-align:center}
 
 .controls{display:flex; gap:0.5rem; align-items:center; margin:1rem 0}
 .highscores{margin-top:1rem; background:var(--card); padding:1rem; border-radius:8px}
+
+
+/* Gör det enkelt att styla spelet via CSS */
+.active{outline:3px solid rgba(255,204,0,0.3)}
+.winner{background:linear-gradient(90deg,#dff7d8,#fff)}
