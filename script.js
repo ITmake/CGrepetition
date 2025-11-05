@@ -54,3 +54,17 @@ function stanna(playerIdx) {
 
     render();
   }
+
+  function växlaSpelare() {
+    state.active = 1 - state.active;
+  }
+
+  function resetGame() {
+    state = {
+      totals: [0, 0],
+      rounds: [0, 0],
+      active: 0,
+      finished: false
+    };
+    render();
+  }
