@@ -90,3 +90,9 @@ function stanna(playerIdx) {
       loadHighscores();
     });
   }
+
+  // LocalStorage-baserade highscores
+  function loadHighscores() {
+    const data = JSON.parse(localStorage.getItem('chickengameHighscores')) || [];
+    renderHighscores(data);
+  }
