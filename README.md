@@ -1,4 +1,29 @@
 # README.MD 
+
+# Chickengame
+## beskrivning av produkten
+
+ett spel för två spelare. man kastar tärning, för att samla ihop poäng till en viss summa. blir summan för stor (man går över) 
+förlorar spelaren, en spelare kan också välja att stanna vid en summa, och låta den andra spelaren fortsätta kasta.
+
+vinnarens namn frågas efter spelet, och en highscore tabell uppdateras så att totala antalet vinster för varje spelare sparas.
+
+spelets utseende skall gå att redigeras via en CSS-fil
+
+#planför uppbyggnaden (varje skede skall pushas till Github)
+
+- [x] Skapa HTML-Dokument med alla obligatoriska taggar
+- [x] Skapa CSS-Filen med grundläggande stil-konfigurationer
+- [x] Skapa JavaScript-Fil för tärningskast samt poängräkning
+- [x] Skapa JSON-Fil som förvarningsplats av highscore
+- [ ] Välj ett språk för "Backend"-Operationer på servern för hantering av highscores (T.ex, Python eller PHP)
+- [x] Dokumentera lite vad som är gjort och hur det fungerar
+- [x] Commit Changes så att man ser vad som hänt
+
+#Spelet ska gå att spela på nätsidan:
+
+- [x] Spelet Fungerar
+
 - apt install ./code_1.105.1-1760482543_amd64.deb 
 - apt install git
 - apt install gh
