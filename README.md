@@ -24,6 +24,8 @@ spelets utseende skall gå att redigeras via en CSS-fil
 
 - [x] Spelet Fungerar
 
+---------------------
+
 - apt install ./code_1.105.1-1760482543_amd64.deb 
 - apt install git
 - apt install gh
